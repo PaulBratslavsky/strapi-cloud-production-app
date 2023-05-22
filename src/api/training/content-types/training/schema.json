@@ -1,11 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "positional_trainings",
+  "collectionName": "trainings",
   "info": {
-    "singularName": "positional-training",
-    "pluralName": "positional-trainings",
-    "displayName": "Positional Training",
-    "description": ""
+    "singularName": "training",
+    "pluralName": "trainings",
+    "displayName": "Training"
   },
   "options": {
     "draftAndPublish": true
@@ -19,15 +18,12 @@
       "type": "text"
     },
     "media": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
       "allowedTypes": [
         "images",
-        "files",
-        "videos",
-        "audios"
-      ]
+        "videos"
+      ],
+      "type": "media",
+      "multiple": true
     },
     "user": {
       "type": "relation",

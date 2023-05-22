@@ -23,7 +23,7 @@
       "components": [
         "lessons.warm-up",
         "lessons.lesson",
-        "lessons.positional-training"
+        "lessons.training"
       ]
     },
     "user": {

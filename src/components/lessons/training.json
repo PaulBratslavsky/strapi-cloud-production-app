@@ -1,8 +1,7 @@
 {
-  "collectionName": "components_lessons_positional_trainings",
+  "collectionName": "components_lessons_trainings",
   "info": {
-    "displayName": "Positional Training",
-    "description": ""
+    "displayName": "Training"
   },
   "options": {},
   "attributes": {
@@ -12,10 +11,10 @@
     "description": {
       "type": "text"
     },
-    "positional_training": {
+    "training": {
       "type": "relation",
       "relation": "oneToOne",
-      "target": "api::positional-training.positional-training"
+      "target": "api::training.training"
     },
     "notes": {
       "type": "richtext"
