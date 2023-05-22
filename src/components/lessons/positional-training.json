@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_lessons_positional_trainings",
+  "info": {
+    "displayName": "Positional Training",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "positional_training": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::positional-training.positional-training"
+    },
+    "notes": {
+      "type": "richtext"
+    },
+    "duration": {
+      "type": "integer"
+    }
+  }
+}

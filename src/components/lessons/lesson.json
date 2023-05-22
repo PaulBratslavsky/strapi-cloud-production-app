@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_lessons_lessons",
+  "info": {
+    "displayName": "Lesson",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "technique": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::technique.technique"
+    },
+    "notes": {
+      "type": "richtext"
+    },
+    "duration": {
+      "type": "integer"
+    }
+  }
+}

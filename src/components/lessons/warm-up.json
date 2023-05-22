@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_lessons_warm_ups",
+  "info": {
+    "displayName": "Warm Up",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "drill": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::drill.drill"
+    },
+    "notes": {
+      "type": "richtext"
+    },
+    "duration": {
+      "type": "integer"
+    }
+  }
+}
